@@ -1,0 +1,39 @@
+{
+    "pdf_path": "/path/to/pdf/file/on/s3/output.pdf",
+    "template_bucket_name": "s3-bucket-name",
+    "asset_bucket_name": "s3-bucket-name",
+    "template_path":"/path/to/pdf/file/on/s3/input/template.html",
+    "data": {
+        "loan_amount": 100000,
+        "applicant_name": "applicant name",
+        "date": "12-01-01",
+        "total_interest": 120000,
+        "other_upfront_charges":200,
+        "processing_fee": 115,
+        "insurance_charges": 105,
+        "other_charges": 0.00,
+        "net_disbursed_amount": 1200000,
+        "total_amount_to_be_paid": 1500000,
+        "annual_interest_rate": 12,
+        "tenor_in_months": 60,
+        "payment_frequency": 1,
+        "number_of_instalments": 60,
+        "amount_in_each_instalment": 12000,
+        "annualized_penal_charges": 1200,
+        "emandate_bounce_charges": 500,
+        "preclosure_charges": 120,
+        "part_payment": "N/A",
+        "cooling_off_period": "N/A",
+        "recovery_agent_details": "N/A",
+        "officer_name": "officer name",
+        "officer_email": "officer@gmail.com",
+        "officer_number": "9876754424",
+        "officer_address": "Home 20, Delhi",
+        "emi_data_table":[
+            [1,2,3,4,5],
+            [2,3,4,5,6]
+        ]
+  
+    }
+    
+  }

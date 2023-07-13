@@ -1,0 +1,15 @@
+{
+    "pdf_path": "/path/to/pdf/file/on/s3/output.pdf",
+    "template_bucket_name": "s3-bucket-name",
+    "asset_bucket_name": "s3-bucket-name",
+    "template_path":"/path/to/pdf/file/on/s3/input/template.html",
+    "data": {
+        "sanction_amount": 100000,
+        "applicant_name": "applicant name",
+        "application_form_number": "form number",
+        "rate_of_interest": 12,
+        "monthly_amount": 12000,
+        "number_of_months": 60
+    }
+    
+  }
